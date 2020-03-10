@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\lib\SDL2-CS\SDL2-CS.Core.csproj" />
+        <ProjectReference Include="..\..\lib\veldrid\src\Veldrid\Veldrid.csproj" />
+        <ProjectReference Include="..\Crida.Shared\Crida.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Ninject" Version="3.3.4" />
+      <PackageReference Include="Nito.AsyncEx" Version="5.0.0" />
+      <PackageReference Include="NLog" Version="4.7.3" />
+      <PackageReference Include="NLog.Schema" Version="4.7.3" />
+      <PackageReference Include="Sunsetware.HardFuzz" Version="1.0.3" />
+      <PackageReference Include="System.Reactive" Version="4.4.1" />
+      <PackageReference Include="Troschuetz.Random" Version="5.0.1" />
+      <PackageReference Include="Veldrid.SPIRV" Version="1.0.13" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="nlog.config">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>

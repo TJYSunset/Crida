@@ -1,0 +1,12 @@
+[submodule "assets"]
+	path = assets
+	url = https://github.com/TJYSunset/Crida.Assets
+[submodule "lib/SDL2-CS"]
+	path = lib/SDL2-CS
+	url = https://github.com/flibitijibibo/SDL2-CS
+[submodule "lib/SharpFont"]
+	path = lib/SharpFont
+	url = https://github.com/TJYSunset/SharpFont
+[submodule "lib/veldrid"]
+	path = lib/veldrid
+	url = https://github.com/TJYSunset/veldrid

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="JetBrains.Annotations" Version="2020.2.0-eap" />
+        <PackageReference Include="MessagePack" Version="2.1.165" />
+        <PackageReference Include="MessagePack.ImmutableCollection" Version="2.1.165" />
+    </ItemGroup>
+    
+</Project>
